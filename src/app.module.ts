@@ -14,6 +14,7 @@ import { SessionModule } from './session/session.module';
 import {JwtModule} from '@nestjs/jwt'
 import { ProductModule } from './product/product.module';
 import { CartModule } from './cart/cart.module';
+import { OrderModule } from './order/order.module';
 
 const config: ConfigService = new ConfigService()
 
@@ -36,7 +37,8 @@ const config: ConfigService = new ConfigService()
     AuthModule,
     SessionModule,
     ProductModule,
-    CartModule
+    CartModule,
+    OrderModule
 
   ],
   controllers: [AppController],
