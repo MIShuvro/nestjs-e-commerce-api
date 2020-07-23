@@ -13,3 +13,4 @@ export class OrderService {
     return store({ model: this.model, data });
   }
 }
+
