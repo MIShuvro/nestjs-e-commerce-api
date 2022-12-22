@@ -34,7 +34,7 @@
     "class-transformer": "^0.2.3",
     "class-validator": "^0.12.2",
     "cowsay": "^1.4.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.9.23",
     "mongoose-unique-validator": "^2.0.3",
     "nestjs-typegoose": "^7.1.28",
